@@ -3,7 +3,7 @@ kind: Th2Box
 metadata:
   name: recon
 spec:
-  image-name: nexus.exactpro.com:9000/th2-check2-recon-template
+  image-name:  ghcr.io/th2-check2-recon-template
   image-version: 2.1.14
   type: th2-check2-recon
   custom-config:
