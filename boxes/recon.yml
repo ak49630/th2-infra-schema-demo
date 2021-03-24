@@ -28,6 +28,15 @@ spec:
           demo-conn1: "NOS_CONN"
           demo-conn2: "NOS_CONN"
           demo-log: "NOS_LOG"
+      - name: "demo_conn_vs_demo_dc"
+        enabled: true
+        match_timeout: 300
+        match_timeout_offset_ns: 0
+        configuration:
+          demo-conn1: "ER_FIX"
+          demo-conn2: "ER_FIX"
+          demo-dc1: "ER_DC"
+          demo-dc2: "ER_DC"
   pins:
     - name: incoming 
       connection-type: mq
